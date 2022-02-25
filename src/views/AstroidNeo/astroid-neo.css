@@ -1,0 +1,57 @@
+.astroid-container {
+    padding: 2rem 4rem;
+    background-color: ghostwhite;
+    border-radius: 10px;
+    height: 100vh;
+}
+.form-control {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+}
+.form-group {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+}
+.astroid-main-title {
+    font-size: 1.2rem;
+    color: #000000;
+    font-weight: 500;
+    margin-bottom: 4rem;
+}
+.date-text {
+    color: #000000;
+    font-size: 1rem;
+}
+input[type="date"] {
+    padding: 0.2rem 0.5rem;
+    border-radius: 7px;
+    outline: none;
+}
+.button-disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.btn-section {
+    margin-top: 2rem;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+td {
+    text-align: left;
+    padding: 8px;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
